@@ -1,0 +1,57 @@
+{
+  "name": "geo-from-ip",
+  "version": "1.2.2",
+  "description": "Get geolocation 🌐 information about an IP address 📲",
+  "main": "lib/geo-from-ip.js",
+  "scripts": {
+    "fix": "standard --fix",
+    "test": "DEBUG=geo-from-ip:* jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VikramTiwari/geo-from-ip.git"
+  },
+  "keywords": [
+    "geo",
+    "ip",
+    "update",
+    "mmdb",
+    "geo from ip",
+    "ip to geo",
+    "GeoIP2 Lite",
+    "GeoIP2",
+    "maxmind db reader",
+    "maxmind db",
+    "maxmind",
+    "maxmind",
+    "auto update"
+  ],
+  "author": "Vikram Tiwari <vikramtheone1@gmail.com> (vikramtiwari.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VikramTiwari/geo-from-ip/issues"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "expect",
+      "test"
+    ]
+  },
+  "homepage": "https://github.com/VikramTiwari/geo-from-ip",
+  "dependencies": {
+    "async": "^3.0.1",
+    "cross-env": "^5.2.0",
+    "debug": "^4.1.1",
+    "maxmind-db-reader": "^0.2.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "chance": "^1.0.18",
+    "jest": "^24.8.0",
+    "standard": "^13.1.0"
+  }
+}
